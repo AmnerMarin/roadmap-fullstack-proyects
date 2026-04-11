@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Website | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="author" content="Amner Jhonatan Marin">
+    <meta name="description" content="Contact Amner Jhonatan Marin for opportunities, projects, or collaborations.">
+    <meta name="keywords" content="contact, frontend developer, hire developer">
+</head>
+
+<body>
+    <nav>
+        <img src="home.svg" alt="home" width="50">
+        <a href="index.html">Home</a>
+        <a href="articles.html">Articles</a>
+        <a href="contact.html">Contact</a>
+        <a href="projects.html">Projects</a>
+    </nav>
+
+    <header>
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out to me using the form below.</p>
+    </header>
+
+    <main>
+        <section>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Contact Information</legend>
+
+                    <p>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2024 Amner Jhonatan Marin. All rights reserved.</small>
+    </footer>
+</body>
+
+</html>

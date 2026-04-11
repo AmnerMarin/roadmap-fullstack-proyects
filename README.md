@@ -9,3 +9,6 @@
 
 [![Vista previa de Single Page CV](./assets/CV.png)](./Single-PageCV/)
 
+**[2. Basic HTML Website](https://roadmap.sh/projects/basic-html-website)**
+[![Vista previa de Basic HTML Werbsite](./assets/Basic-HTML-Website.png)](./02-Basic-HTML-Website/)
+
