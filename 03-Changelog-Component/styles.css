@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #f9fafb;
+}
+
+.changelog-container {
+    border: 1px solid #a4a2a2;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.timeline {
+    position: relative;
+    /*<--*/
+    margin-top: 40px;
+    list-style: none;
+}
+
+
+.timeline::before {
+    content: '';
+    width: 2px;
+    background-color: #111827;
+    position: absolute;
+    /*<--*/
+
+    /* ocupa todo el espacio del padre */
+    top: 0;
+    bottom: 0;
+
+    left: 140px;
+}
+
+.timeline-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    left: 135px;
+    width: 12px;
+    height: 12px;
+    background-color: #111827;
+    border-radius: 50%;
+    z-index: 2;
+    /*Encima de la linea*/
+}
+
+.timeline-item time {
+    width: 140px;
+    padding-right: px;
+    text-align: left;
+    color: #6b7280;
+}
+
+.timeline-item .content {
+    padding-left: 40px;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    color: #6b7280;
+    margin-top: 15px;
+}
+
+button {
+    background-color: #111827;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+}
+
+/* --- DISEÑO RESPONSIVO (Móviles) --- */
+@media (max-width: 500px) {
+    .changelog-container {
+        padding: 30px 20px;
+    }
+
+    .timeline::before {
+        left: 10px;
+    }
+
+    .timeline-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+
+    .timeline-item::after {
+        left: 5px;
+        top: 8px;
+    }
+
+    .timeline-item time {
+        width: auto;
+        text-align: left;
+        padding-right: 0;
+        margin-bottom: 4px;
+        font-size: 0.85rem;
+    }
+
+    .timeline-item .content {
+        padding-left: 0;
+    }
+}
