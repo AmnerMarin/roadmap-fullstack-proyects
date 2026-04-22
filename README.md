@@ -16,5 +16,5 @@
 [![Vista previa de Changelog Component](./assets/changelog-component.png)](./03-Changelog-Component/)
 
 **[4. Datepicker UI](https://roadmap.sh/projects/datepicker-ui)**
-[!Vista previa de Datepicker UI](./assets/Datepicker.png)
+[![Vista previa de Datepicker UI](./assets/Datepicker.png)](./04-DatePicker-UI/)
 
