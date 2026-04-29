@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesible From UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <form class="profile-form" action="#" method="POST">
+
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" value="What should we call you?">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-error" value="john@doe.com" aria-invalid="true"
+                    aria-describedby="email-error">
+                <span id="email-error" class="error-message">Email is already taken</span>
+            </div>
+
+            <div class="form-group password-group">
+                <label for="password">Enter Password</label>
+                <div class="input-wrapper">
+                    <input type="password" id="password" value="xxxxxxxx">
+                    <button type="button" class="toggle-password" aria-label="Show password">👁️</button>
+                </div>
+            </div>
+
+            <div class="form-group password-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <div class="input-wrapper">
+                    <input type="password" id="confirmPassword" value="xxxxxxxx">
+                    <button type="button" class="toggle-password" aria-label="Show password">👁️</button>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-submit">Update Profile</button>
+        </form>
+
+        <aside class="profile-sidebar">
+            <div class="progress-wrapper">
+                <div class="progress-circle" >
+                    <span class="progress-text">65%</span>
+                </div>
+                <h2 class="progress-title">Profile Completeness</h2>
+            </div>
+
+            <div class="checklist-card">
+                <ul class="checklist">
+                    <li class="completed">Create Account</li>
+                    <li class="completed">Update Roadmap Progress</li>
+                    <li class="completed">Setup Public Profile</li>
+                    <li>Complete your first project</li>
+                    <li>Invite your Friends</li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+</body>
+
+</html>
