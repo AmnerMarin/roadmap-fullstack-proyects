@@ -19,7 +19,7 @@
 
 |**[5. Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)**      |       |
 |---------------------------------------------------------------------              | ------------------------------------------------------------------------------------------            |
-|[![Vista previa de Accesible Form UI](./assets/changelog-component.png)](./03-Changelog-Component/) |  |
+|[![Vista previa de Accesible Form UI](./assets/AccesibleFormUI.png)](./05-Accesible-Form-UI/) |  |
 
 
 
