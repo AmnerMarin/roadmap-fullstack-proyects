@@ -17,9 +17,9 @@
 |---------------------------------------------------------------------              | ------------------------------------------------------------------------------------------            |
 |[![Vista previa de Changelog Component](./assets/changelog-component.png)](./03-Changelog-Component/) | [![Vista previa de Datepicker UI](./assets/Datepicker.png)](./04-DatePicker-UI/) |
 
-|**[5. Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)**      |   **[6. Testimonial Card](https://roadmap.sh/projects/testimonial-cards)**    |
-|---------------------------------------------------------------------              | ------------------------------------------------------------------------------------------            |
-|[![Vista previa de Accesible Form UI](./assets/AccesibleFormUI.png)](./05-Accesible-Form-UI/) | [[!Vista previa de Testimonial Card](assets/Testimonial-cards.png)](06-Testimonial-Cards/)|
+|**[5. Accessible Form UI](https://roadmap.sh/projects/accessible-form-ui)**      |   **[6. Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)**    |
+|---------------------------------------------------------------------              | -----------------     |
+|[![Vista previa de Accesible Form UI](./assets/AccesibleFormUI.png)](./05-Accesible-Form-UI/) | [![Vista previa de Testimonial Card](assets/Testimonial-cards.png)](./06-Testimonial-Cards/)|
 
 
 
