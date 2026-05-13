@@ -1,0 +1,38 @@
+
+*{
+    font-family: sans-serif;
+}
+
+.tabs-container{
+    max-width: 40%;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 10%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0 20px 20px 20px
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    white-space: nowrap;
+    transform: translateX(-35px);
+    color: #828282;
+    font-size: 14px;
+}
+
+section{
+    background-color: #000;
+    color: beige;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.active{
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+    text-decoration: underline;
+}

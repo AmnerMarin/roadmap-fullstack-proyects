@@ -27,7 +27,9 @@
 |[![Vista previa de Image Grid Layout](./assets/Grid-Images.png)](./07-Image-Grid-layout/)|[![Vista previa de ToolTip UI](assets/ToolTipUI.png)](08-Tooltip-UI/)|
 
 
-
+|**[9. Tabs](https://roadmap.sh/projects/simple-tabs)**|
+|---|
+|[![Vista previa de Tabs](./assets/Tabs.png)](09-Tabs/)|
 
 
 
