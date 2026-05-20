@@ -1,0 +1,38 @@
+COOKIES
+-------------------------------------------------
+Cookies are small text files that websites store on your device (computer, tablet, or cell phone) when you browse.
+
+*COOKIE ATTRIBUTES*
+Any of the following cookie attribute values can optionally follow the key-value pair, each preceded by a semicolon separator:
+
+document.cookie = "name=Oeschger; SameSite=None; Secure";
+document.cookie = "favorite_food=tripe; SameSite=None; Secure";
+
+1. secure: Specifies that the cookie should only be transmitted over a secure protocol.
+2. name: It's the name's data
+
+-->document.cookie is a string containing a semicolon-separated list of all the cookies, is like a book that contains all cookies, when we do  document.cookie, it will show us something like{name=Oeschger; favorite_food=tripe} y and not just what we want.
+    
+-->One way to obtain the value of the cookie is:
+showBtn.addEventListener("click", () => {
+  const cookieValue = document.cookie
+    .split("; ")
+    .find((row) => row.startsWith("test2="))
+    ?.split("=")[1];
+  output.textContent = `> ${cookieValue}`;
+});
+
+
+->Do something only once
+doOnceBtn.addEventListener("click", () => {
+  if (
+    !document.cookie
+      .split("; ")
+      .find((row) => row.startsWith("doSomethingOnlyOnce"))
+  ) {
+    document.cookie =
+      "doSomethingOnlyOnce=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; SameSite=None; Secure";
+
+    output.textContent = "> Do something here!";
+  }
+});
